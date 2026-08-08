@@ -3,7 +3,6 @@ class Bmi:
 		# Calculate BMI according to the standard formula
 		self.bmi_value = float(weight) / (float(height) * float(height))
 
-
 	def display(self):
 		# Output the result
 		print(f"Your boddy mass index (BMI) is: { round(self.bmi_value, 2) }")
@@ -14,6 +13,7 @@ def main():
 	# Ask for user's height
 	height = input("Enter your height (m): ")
 
+	# Call the class
 	bmi = Bmi()
 	bmi.calculate_bmi(weight, height)
 	bmi.display()
