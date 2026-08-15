@@ -20,5 +20,3 @@ test record 02
 end of junk data.
 
 text file analyssis
-text file analyssis
-text file analyssis

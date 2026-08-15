@@ -1,0 +1,42 @@
+lecturers
+	-- l_last_name
+	-- l_first_name
+	-- l_email
+	-- l_address
+	-- lecture_id ***
+	
+lectures
+	-- cc#
+	-- subject
+	-- time
+	-- date
+	-- lecture_name
+	-- lecturer_id ***
+	-- subject_id ***
+	
+students
+	-- f_name
+	-- l_name
+	-- nid
+	-- b_date
+	-- student_id ***
+
+enrollments
+	-- student_code
+	-- date_of_enrollment
+	-- course_name
+	-- cc#
+	-- enrollment_id ***
+	-- student_id    ***
+	
+subjects
+	-- subject_code
+	-- subject_unit
+	-- subject_udsc
+	-- subject_id ***
+	
+The project is to records students information who enrolled for a course and their subjects along with lecturers and lecture information.
+	
+Lecturers and Subjects tables have one to many relationship and this relationship has recorded in lectures table. Also, Students and Enrollments tables have one to many relationship.
+
+*** Added new attributes for maintaining relationships
