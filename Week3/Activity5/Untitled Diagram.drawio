@@ -10,7 +10,7 @@
         <mxCell id="sD_bzx0fRoFo-4u3bAM--2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Register Customer" vertex="1">
           <mxGeometry height="80" width="120" x="730" y="170" as="geometry" />
         </mxCell>
-        <mxCell id="sD_bzx0fRoFo-4u3bAM--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Define Currencies" vertex="1">
+        <mxCell id="sD_bzx0fRoFo-4u3bAM--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Define and Update Currencies" vertex="1">
           <mxGeometry height="80" width="120" x="730" y="460" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;b&gt;MONEY EXCHANGE SYSTEM&lt;/b&gt;&lt;/h2&gt;" vertex="1">
