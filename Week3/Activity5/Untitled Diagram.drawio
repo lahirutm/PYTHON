@@ -47,19 +47,19 @@
           <mxGeometry height="30" width="60" x="525" y="235" as="geometry" />
         </mxCell>
         <mxCell id="FD20MWG9gT-CSiu7mlck-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="610" width="550" x="600" y="80" as="geometry" />
+          <mxGeometry height="610" width="550" x="600" y="70" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--5" parent="FD20MWG9gT-CSiu7mlck-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;b&gt;MONEY EXCHANGE SYSTEM&lt;/b&gt;&lt;/h2&gt;" vertex="1">
           <mxGeometry height="30" width="300" x="-20" as="geometry" />
         </mxCell>
         <mxCell id="zG-R2_H6QmMjIMgIkZoe-1" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Request New Currency" vertex="1">
-          <mxGeometry height="80" width="120" x="320" y="380" as="geometry" />
+          <mxGeometry height="80" width="120" x="420" y="360" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--2" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Register Customer" vertex="1">
           <mxGeometry height="80" width="120" x="150" y="60" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--3" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Define and Update Currencies" vertex="1">
-          <mxGeometry height="80" width="120" x="160" y="510" as="geometry" />
+          <mxGeometry height="80" width="120" x="150" y="510" as="geometry" />
         </mxCell>
         <mxCell id="zG-R2_H6QmMjIMgIkZoe-5" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.917;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--3" value="">
           <mxGeometry relative="1" as="geometry">
@@ -76,10 +76,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--12" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Exchange Records" vertex="1">
-          <mxGeometry height="80" width="120" x="150" y="180" as="geometry" />
+          <mxGeometry height="80" width="120" x="150" y="360" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--13" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Complete&lt;br&gt;Exchange&lt;br&gt;&amp;nbsp;Transaction" vertex="1">
-          <mxGeometry height="80" width="120" x="150" y="320" as="geometry" />
+          <mxGeometry height="80" width="120" x="150" y="210" as="geometry" />
         </mxCell>
         <mxCell id="zG-R2_H6QmMjIMgIkZoe-2" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--13" value="">
           <mxGeometry relative="1" as="geometry">
@@ -113,9 +113,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="zG-R2_H6QmMjIMgIkZoe-13" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Request Technical Suppport" vertex="1">
-          <mxGeometry height="80" width="120" x="20" y="420" as="geometry" />
+          <mxGeometry height="80" width="120" x="420" y="260" as="geometry" />
         </mxCell>
-        <mxCell id="zG-R2_H6QmMjIMgIkZoe-14" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-13" style="endArrow=classic;html=1;rounded=0;entryX=0.008;entryY=0.713;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--13" value="">
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-14" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-13" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="sD_bzx0fRoFo-4u3bAM--13" value="">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="240" y="390" as="sourcePoint" />
             <mxPoint x="60" y="422" as="targetPoint" />
