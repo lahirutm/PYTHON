@@ -6,6 +6,10 @@ from student_manager import add_students, view_students, search_student, delete_
 from subject_manager import add_subjects, view_subjects, search_subject, delete_subject
 # Functions SQL queries for Lectures table CRUD
 from lecturer_manager import add_lecturers, view_lecturers, search_lecturer, delete_lecturer
+# Functions SQL queries for Enrollments table CRUD
+from enrollment_manager import add_enrollment, view_enrollments, search_enrollment, delete_enrollment
+# Functions SQL queries for Lectures table CRUD
+from lecture_manager import add_lecture, view_lectures, search_lecture, delete_lecture
 
 def menu():
     # Menu items for Students
@@ -28,6 +32,22 @@ def menu():
     print("10. View All Lecturers")
     print("11. Search Lecturer by Name")
     print("12. Delete Lecturer by ID")
+
+    # Menu items for Enrollments
+    print("\n==== Enrollments Manager ====")
+    print("13. Add Enrollment")
+    print("14. View All Enrollments")
+    print("15. Search Enrollment by Student Name")
+    print("16. Search Enrollment by Subject Name")
+    print("17. Delete Enrollment by ID")
+
+    # Menu items for Lectures
+    print("\n==== Lectures Manager ====")
+    print("18. Add Lecture")
+    print("19. View All Lectures")
+    print("20. Search Lecture by Lecturer Name")
+    print("21. Search Lecture by Subject Name")
+    print("22. Delete Lecture by ID")
 
     # Menu for Exit
     print("99. Exit")

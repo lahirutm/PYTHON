@@ -51,7 +51,7 @@ def create_tables():
 
     # Create lectures table
     cursor.execute('''
-        CREATE TABLE IF NOT EXISTS enrollments (
+        CREATE TABLE IF NOT EXISTS lectures (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             lecturer_id INTEGER NOT NULL,
             subject_id INTEGER NOT NULL,
