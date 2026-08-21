@@ -4,23 +4,11 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="sD_bzx0fRoFo-4u3bAM--2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Register Customer" vertex="1">
-          <mxGeometry height="80" width="120" x="730" y="170" as="geometry" />
-        </mxCell>
-        <mxCell id="sD_bzx0fRoFo-4u3bAM--3" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Define and Update Currencies" vertex="1">
-          <mxGeometry height="80" width="120" x="730" y="460" as="geometry" />
-        </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--6" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
           <mxGeometry height="60" width="30" x="540" y="150" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
-          <mxGeometry height="60" width="30" x="1020" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="sD_bzx0fRoFo-4u3bAM--12" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Exchange Records" vertex="1">
-          <mxGeometry height="80" width="120" x="730" y="360" as="geometry" />
-        </mxCell>
-        <mxCell id="sD_bzx0fRoFo-4u3bAM--13" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Exchange Currencies" vertex="1">
-          <mxGeometry height="80" width="120" x="730" y="265" as="geometry" />
+          <mxGeometry height="60" width="30" x="1210" y="560" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--14" edge="1" parent="1" source="sD_bzx0fRoFo-4u3bAM--7" style="endArrow=classic;html=1;rounded=0;" target="sD_bzx0fRoFo-4u3bAM--3" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -48,21 +36,81 @@
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--18" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.025;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--12" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="580" y="200" as="sourcePoint" />
+            <mxPoint x="570" y="190" as="sourcePoint" />
             <mxPoint x="860" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Administrator" vertex="1">
-          <mxGeometry height="30" width="60" x="1005" y="550" as="geometry" />
+          <mxGeometry height="30" width="60" x="1205" y="640" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Customer" vertex="1">
           <mxGeometry height="30" width="60" x="525" y="235" as="geometry" />
         </mxCell>
         <mxCell id="FD20MWG9gT-CSiu7mlck-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
-          <mxGeometry height="460" width="280" x="660" y="120" as="geometry" />
+          <mxGeometry height="610" width="550" x="620" y="80" as="geometry" />
         </mxCell>
         <mxCell id="sD_bzx0fRoFo-4u3bAM--5" parent="FD20MWG9gT-CSiu7mlck-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;h2&gt;&lt;b&gt;MONEY EXCHANGE SYSTEM&lt;/b&gt;&lt;/h2&gt;" vertex="1">
           <mxGeometry height="30" width="300" x="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-1" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Request New Currency" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="sD_bzx0fRoFo-4u3bAM--2" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Register Customer" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sD_bzx0fRoFo-4u3bAM--3" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Define and Update Currencies" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-5" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.917;entryY=0.213;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="451" y="371" as="sourcePoint" />
+            <mxPoint x="290" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-6" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-5" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-7" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;EXTEND&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0061" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sD_bzx0fRoFo-4u3bAM--12" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Exchange Records" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="sD_bzx0fRoFo-4u3bAM--13" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Complete&lt;br&gt;Exchange&lt;br&gt;&amp;nbsp;Transaction" vertex="1">
+          <mxGeometry height="80" width="120" x="130" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-2" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.425;entryDx=0;entryDy=0;entryPerimeter=0;" target="sD_bzx0fRoFo-4u3bAM--13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="220" as="sourcePoint" />
+            <mxPoint x="360" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-3" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-2" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-4" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;EXTEND&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0061" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-8" parent="FD20MWG9gT-CSiu7mlck-1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View Currency Exchange Rates" vertex="1">
+          <mxGeometry height="80" width="120" x="410" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-10" edge="1" parent="FD20MWG9gT-CSiu7mlck-1" source="zG-R2_H6QmMjIMgIkZoe-8" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" target="sD_bzx0fRoFo-4u3bAM--13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="296" as="sourcePoint" />
+            <mxPoint x="310" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-11" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-10" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" value="Label" vertex="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zG-R2_H6QmMjIMgIkZoe-12" connectable="0" parent="zG-R2_H6QmMjIMgIkZoe-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&amp;lt;&amp;lt;INCLUDE&amp;gt;&amp;gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0061" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
